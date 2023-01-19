@@ -1,0 +1,152 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+
+html, h1 {
+  font-family: fantasy;
+}
+
+body {
+  color: black;  /* color  verandert de tekstkleur*/
+  background-color: transparent;
+} 
+
+p, h2 { /* gebruik deze stijl voor p, h1 en h2 tegelijk*/
+  color: #dedede;
+  background-color: transparent;
+}
+
+p {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  background-color: transparent;
+}
+
+iframe#vid {
+  margin: 0px auto;
+  display: block;
+}
+
+@media (max-width : 500px) {
+  iframe#vid {
+  margin: 0px auto;
+  display: block;
+  }
+  iframe#vid {
+    width: 340px;
+    height: 200px;
+  }
+  img#logo {
+    height: 100px;
+    width: 100px;
+  }
+  img#logo {
+    height: 100px;
+    width: 100px;
+ }
+}
+
+img#logo {
+  float: right;
+  width: 100px;
+}
+
+@media (min-width : 1500px) {
+  iframe#vid {
+  margin: 0px auto;
+  display: block;
+  }
+  iframe#vid {
+    width: 1200px;
+    height: 680px;
+  }
+  img#logo {
+    height: 200px;
+    width: 200px;
+ }
+  img#invislogo {
+    height: 200px;
+    width: 200px;
+ }
+}
+
+img#logo {
+  margin-right: 20px;
+  margin-top: -45px;
+}
+
+img#invislogo {
+  float: left;
+  width: 100px;
+}
+
+img#invislogo {
+  margin-left: 20px;
+  margin-top: -45px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  
+}
+
+li {
+  float: left;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-right: 2px;
+}
+
+li:last-child {
+  
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: #55bfe2;
+  border-radius: 10px;
+}
+
+li a:hover:not(.active) {
+  background-color: #307288;
+}
+
+.active {
+  background-color: #8ee6c6;
+}
+
+img#insta {
+  margin-left: 300px;
+}
+
+img#invislogo {
+  pointer-events: none;
+  user-select: none;
+}
+
+img#logo {
+  pointer-events: none;
+  user-select: none;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  pointer-events: none;
+  user-select: none;
+}
+
+{
+  
+}
